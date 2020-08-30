@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+    <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+    <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/siya</property>
+    <property name="hibernate.connection.username">root</property>
+    <property name="hibernate.connection.password">root</property>
+    <property name="show_sql">true</property>
+    <property name="hbm2ddl.auto">update</property>
+   
+   
+     
+     <mapping class="Model.UserManagement.Role"></mapping>
+      <mapping class="Model.UserManagement.UserModel"></mapping>
+     
+       <mapping class="Model.UserManagement.countrybean"></mapping>
+      <mapping class="Model.UserManagement.statebean"></mapping>
+      <mapping class="Model.UserManagement.citybean"></mapping>
+     
+      
+        <mapping class="Model.UserManagement.assignrightsbean"></mapping>
+    
+       <mapping class="Model.UserManagement.privilage_component_model"></mapping>
+        <mapping class="Model.UserManagement.privilage_model"></mapping>
+         <mapping class="Model.UserManagement.assignPriByRole_model"></mapping>
+          <mapping class="Model.UserManagement.assignPriByUser_model"></mapping>
+          	
+         
+           <mapping class="Model.SalesManagement.customer_model"></mapping>
+            <mapping class="Model.SalesManagement.company_model"></mapping>
+            <mapping class="Model.SalesManagement.Categories_model"></mapping>
+            
+              <mapping class="Model.SalesManagement.Lead_model"></mapping>
+               <mapping class="Model.UserManagement.image_model"></mapping>
+              
+               <mapping class="Model.SalesManagement.Meeting_model"></mapping>
+           
+                 <mapping class="Model.SalesManagement.ScheduleCall_model"></mapping>
+                 <mapping class="Model.SalesManagement.Title_model"></mapping>
+                 
+                        <mapping class="Model.SalesManagement.logged_call_model"></mapping>
+                 
+               
+              		<mapping class="Model.PurchaseManagement.Item_model"></mapping>
+              		 <mapping class="Model.PurchaseManagement.Item_Size_model"></mapping>
+              		 <mapping class="Model.PurchaseManagement.Product_model"></mapping>
+              		 <mapping class="Model.PurchaseManagement.ProductCategory_model"></mapping>
+              		 <mapping class="Model.PurchaseManagement.Supplier_model"></mapping>
+      				<mapping class="Model.PurchaseManagement.SuppCompany_model"></mapping>
+      				<mapping class="Model.PurchaseManagement.SuppTitle_model"></mapping>
+      				<mapping class="Model.PurchaseManagement.QuatationDetail_model"></mapping>
+      				<mapping class="Model.PurchaseManagement.Quatation_model"></mapping>
+      				<mapping class="Model.PurchaseManagement.PurchaseOrder_model"></mapping>
+
+					<mapping class="Model.PurchaseManagement.IncomingShippment_model"></mapping>
+      				<mapping class="Model.PurchaseManagement.IncomingProduct_model"></mapping>
+      				<mapping class="Model.SalesManagement.QuatationSale_model"></mapping>
+      				<mapping class="Model.SalesManagement.QuatationSaleDetail_model"></mapping>
+      				<mapping class="Model.SalesManagement.SalesOrder_model"></mapping>
+      				<mapping class="Model.Warehouse.delivaryorders_model"></mapping>
+      				<mapping class="Model.Warehouse.delivaryproducts_model"></mapping>
+     
+        
+       </session-factory>
+</hibernate-configuration>

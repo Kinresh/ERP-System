@@ -1,0 +1,118 @@
+.fsv-table
+{
+    position: relative;
+    width:959px;
+    margin-right:10px;
+    margin-bottom: 15px;
+}  
+
+.fsv-table th
+{ 			        padding: 2px;
+             color:white;
+             background-color:#444;					
+             border:solid 1px #BBB;
+}
+.fsv-table td
+{
+
+    padding:2px;
+    border:solid 1px #CCCCCC;
+
+}
+.fsv-table tr
+{
+    color:#272727;
+    background-color:#f6f6f6;
+}
+.fsv-table tr:hover
+{
+    background-color: #DFF4F7!important;
+    color: #666633!important;
+}
+
+.fsv-table tr td input[type="button"]
+{
+    float:left;
+    width:35px;
+    height:35px;
+    background-color:transparent;
+    border:none;
+    background-repeat:no-repeat;
+}
+.fsv-table tr td button:hover
+{
+    background-color:#444;
+}  
+.fsv-image1
+{
+    cursor: pointer;
+    background-image:url(images/expand.png)!important;
+}
+.fsv-image2
+{
+    cursor: pointer;
+    background-image:url(images/minimize.png)!important;
+}
+.fsv-update
+{
+    cursor: pointer;
+    background-image:url(images/update.png)!important;
+}
+.fsv-update1
+{
+    height:35px;
+    font-size:16px;
+    background-image:url(images/update.png);
+    background-color:transparent; 
+    background-repeat:no-repeat; 
+    width:120px; 
+    color: #2098f5; 
+    cursor:pointer;
+
+
+}
+.fsv-delete
+{
+    cursor: pointer;
+    background-image:url(images/delete.png)!important;
+}
+.fsv-rightmenu-bottom
+{
+
+    width:976px;
+    margin-top:70px;
+    padding:12px;
+    position: relative;
+    margin-left: 290px;
+    padding-right:0px;
+background: url("images/mws-dark-bg.png") repeat scroll 0% 0% rgb(53, 53, 58);
+    border:2px dotted gray;
+   
+
+}
+.fsv-rightmenu-bottom1
+{
+   
+    width:964px;
+    margin-top:-2px;
+    padding:25px;
+    position: relative;
+   margin-left: 122px;
+
+   background: url("images/mws-dark-bg.png") repeat scroll 0% 0% rgb(53, 53, 58);
+    border:2px dotted gray;
+
+}
+.fsv-form
+{
+    width:958px;
+    margin-top:20px;
+
+}
+.fsv-form td label
+{
+    height:50px;
+
+    font-family:Arial, Helvetica, sans-serif;
+
+}
